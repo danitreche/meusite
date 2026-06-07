@@ -1,84 +1,167 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dani Terra | E-books</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Importando fontes elegantes -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap"
-        rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dani Terra | E-books</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <section class="topo">
-        <h1>Dani Terra</h1>
-        <p class="slogan">Resgatando a essência das Escrituras além do olhar ocidental.</p>
-    </section>
-
-    <main class="container">
-        <!-- PRODUTO 1: O ÍMÃ (GRÁTIS) -->
-        <div class="card-ebook">
-            <div class="badge-gratis">GRÁTIS</div>
-            <img src="capa-12-liberdades.jpg" alt="Capa 12 Liberdades" class="capa-ebook">
-            <h2>12 Liberdades</h2>
-            <p>O guia inicial para transformar sua mentalidade.</p>
-            <a href="https://drive.google.com/file/d/1xXnCboel12mq-XuxPZy1aS0_D0mtYRoD/view?usp=sharing"
-                class="botao-download">Baixar Agora</a>
+<header class="hero">
+  <div class="wrap">
+    <div class="logo-bar">
+      <span class="brand">DANI<b>TERRA</b></span>
+    </div>
+    <div class="hero-grid">
+      <div>
+        <span class="badge">E-books e Devocionais</span>
+        <h1>Resgatando a essência das Escrituras <em>além do olhar ocidental.</em></h1>
+        <p class="lead">Uma jornada histórica e espiritual. Descubra novas formas de enxergar, sentir e compreender a verdade através dos meus materiais.</p>
+        <a href="#ebooks" class="cta">Conhecer os materiais <span class="arrow">→</span></a>
+      </div>
+      <div class="hero-art">
+        <div class="hero-photo-wrapper">
+          <img src="dani-terra.jpg.jpeg" alt="Dani Terra" onerror="this.src='https://via.placeholder.com/400x500/1f0e36/3cd8f0?text=Dani+Terra'">
         </div>
+      </div>
+    </div>
+  </div>
+</header>
 
-        <!-- PRODUTO 2: O PRINCIPAL (AUTORIDADE) -->
-        <div class="card-ebook destaque">
-            <div class="badge-premium">MAIS PROFUNDO</div>
-            <img src="capa-biblia.jpg" alt="Capa Bíblia Sem Filtros" class="capa-ebook">
-            <h2>Bíblia Sem Filtros</h2>
-            <p>Entenda o contexto que o ocidente esqueceu. Uma jornada histórica e espiritual.</p>
-            <div class="preco">R$ 47,00</div>
-            <a href="https://mpago.la/24LFUiJ" class="botao-venda">Quero Aprender</a>
-        </div>
+<main id="ebooks">
 
-        <!-- PRODUTO 3: FAMÍLIA -->
-        <div class="card-ebook">
-            <img src="capa-devocional.jpg" alt="Capa Meu Primeiro Devocional" class="capa-ebook">
-            <h2>Meu Primeiro Devocional</h2>
-            <p>Inclui livro de colorir. Momentos preciosos em família.</p>
-            <div class="preco">R$ 19,90</div>
-            <a href="https://mpago.la/2v54rkz" class="botao-venda">Comprar Kit</a>
+  <!-- EBOOK NOVO: JEJUM -->
+  <section class="block dark">
+    <div class="wrap">
+      <div class="kicker">Novo Lançamento</div>
+      <h2>Jejum - <em>Frequência de Acesso</em></h2>
+      
+      <div class="photo-side-grid">
+        <div class="section-photo">
+          <img src="capa-jejum.jpg.png" alt="Capa Jejum" onerror="this.src='https://via.placeholder.com/400x533/2a1248/3cd8f0?text=Jejum'">
         </div>
+        <div class="text-content">
+          <p class="big-text">Descubra o verdadeiro poder do jejum como uma chave de acesso espiritual.</p>
+          <ul class="fancy">
+            <li>Compreenda a frequência correta de acesso</li>
+            <li>Conecte-se de forma muito mais profunda</li>
+            <li>Transforme sua rotina espiritual para sempre</li>
+          </ul>
+          <div class="price-box-small">
+            <div class="price-now"><span class="x">R$</span> 9<span class="cents">,90</span></div>
+            <a href="https://mpago.la/2dHnuVr" class="cta" target="_blank">Comprar Agora <span class="arrow">→</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <!-- PRODUTO 4: EBOOKS ESTUDO -->
-        <div class="card-ebook">
-            <div class="badge-gratis">GRÁTIS</div>
-            <img src="gratis.png" alt="Capa Livros e Ebooks de estudo" class="capa-ebook">
-            <h2>Livros e Ebooks de estudo</h2>
-            <p>O conhecimento liberta e não deve ser pago por isso.</p>
-            <a href="https://drive.google.com/drive/folders/1rf7QTq9AMTHyhrK2kUDoSMrjxA8VBcRO?usp=drive_link" class="botao-download">Acessar Grátis</a>
+  <!-- BÍBLIA SEM FILTROS -->
+  <section class="block alt">
+    <div class="wrap">
+      <div class="kicker">Mais Profundo</div>
+      <h2>Bíblia <em>Sem Filtros</em></h2>
+      
+      <div class="photo-side-grid reverse">
+        <div class="text-content">
+          <p class="big-text">Entenda o contexto que o ocidente esqueceu. Uma jornada histórica e espiritual.</p>
+          <ul class="fancy">
+            <li>Contexto histórico detalhado das escrituras</li>
+            <li>Traduções e interpretações originais explicadas</li>
+            <li>Leitura envolvente, desmistificadora e reveladora</li>
+          </ul>
+          <div class="price-box-small">
+            <div class="price-now"><span class="x">R$</span> 9<span class="cents">,90</span></div>
+            <a href="https://mpago.la/24LFUiJ" class="cta" target="_blank">Quero Aprender <span class="arrow">→</span></a>
+          </div>
         </div>
-    </main>
-    <section id="sobre" class="sobre-autora">
-        <div class="sobre-container">
-            <!-- Sua Foto -->
-            <div class="sobre-foto">
-                <img src="dani-terra.jpg" alt="Dani Terra">
-            </div>
+        <div class="section-photo">
+          <img src="capa-biblia.jpg.jpeg" alt="Capa Bíblia Sem Filtros" onerror="this.src='https://via.placeholder.com/400x533/e6e0f2/1f0e36?text=B%C3%ADblia+Sem+Filtros'">
+        </div>
+      </div>
+    </div>
+  </section>
 
-            <!-- Seu Texto Personalizado -->
-            <div class="sobre-texto">
-                <h2>Sobre Dani Terra</h2>
-                <p>
-                    Sou uma eterna pesquisadora da Vida, sempre revisitando o que foi ensinado e indo além do
-                    óbvio.
-                </p>
-                <p>
-                    Prazer, Dani Terra. Apaixonada por tecnologia, uno conhecimento espiritual e inovação para criar
-                    novas formas de enxergar, sentir e compreender a verdade.
-                </p>
-            </div>
+  <!-- MEU PRIMEIRO DEVOCIONAL -->
+  <section class="block dark">
+    <div class="wrap">
+      <div class="kicker">Para a Família</div>
+      <h2>Meu Primeiro <em>Devocional</em></h2>
+      
+      <div class="photo-side-grid">
+        <div class="section-photo">
+          <img src="capa-devocional.jpg.jpeg" alt="Capa Meu Primeiro Devocional" onerror="this.src='https://via.placeholder.com/400x533/2a1248/3cd8f0?text=Devocional'">
         </div>
-    </section>
+        <div class="text-content">
+          <p class="big-text">Momentos preciosos em família. Inclui um maravilhoso livro de colorir.</p>
+          <ul class="fancy">
+            <li>Atividades práticas e reflexões diárias</li>
+            <li>Livro de colorir exclusivo para os pequenos</li>
+            <li>Aproxima as crianças da Palavra de Deus</li>
+          </ul>
+          <div class="price-box-small">
+            <div class="price-now"><span class="x">R$</span> 9<span class="cents">,90</span></div>
+            <a href="https://mpago.la/2v54rkz" class="cta" target="_blank">Comprar Kit <span class="arrow">→</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MATERIAIS GRATUITOS -->
+  <section class="block alt">
+    <div class="wrap">
+      <div class="kicker">Materiais Gratuitos</div>
+      <h2>Conhecimento <em>que Liberta</em></h2>
+      
+      <div class="maps">
+        <div class="map-card">
+          <img src="capa-12-liberdades.jpg.jpeg" alt="12 Liberdades" class="card-img" onerror="this.src='https://via.placeholder.com/400x300/e6e0f2/1f0e36?text=12+Liberdades'">
+          <div class="num">1</div>
+          <h3>12 Liberdades</h3>
+          <p>O guia inicial indispensável para transformar de vez a sua mentalidade.</p>
+          <a href="https://drive.google.com/drive/folders/1tNfM-kPtSl45B7geUy7rqvRu_OkLeqke?usp=drive_link" class="cta-link" target="_blank">Baixar Agora →</a>
+        </div>
+        <div class="map-card">
+          <img src="capa-ebooks.png" alt="Livros e Ebooks" class="card-img" onerror="this.src='https://via.placeholder.com/400x300/e6e0f2/1f0e36?text=Livros+de+Estudo'">
+          <div class="num">2</div>
+          <h3>Livros de estudo</h3>
+          <p>O conhecimento liberta e não deve ser pago por isso. Acesse diversos materiais gratuitos.</p>
+          <a href="https://drive.google.com/drive/folders/1rf7QTq9AMTHyhrK2kUDoSMrjxA8VBcRO?usp=drive_link" class="cta-link" target="_blank">Acessar Grátis →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE A AUTORA -->
+  <section id="sobre" class="block dark final">
+    <div class="wrap">
+      <div class="about-grid">
+        <div class="about-photo">
+          <img src="dani-terra.jpg.jpeg" alt="Dani Terra" onerror="this.src='https://via.placeholder.com/400x500/1f0e36/3cd8f0?text=Dani+Terra'">
+        </div>
+        <div class="about-text" style="text-align: left;">
+          <div class="kicker">Sobre a Autora</div>
+          <h2>Dani <em>Terra</em></h2>
+          <p>Sou uma eterna pesquisadora da Vida, sempre revisitando o que foi ensinado e indo além do óbvio.</p>
+          <p>Prazer, Dani Terra. Apaixonada por tecnologia, uno conhecimento espiritual e inovação para criar novas formas de enxergar, sentir e compreender a verdade.</p>
+          <div class="about-signature">Com carinho, Dani</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>&copy; 2026 Dani Terra. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
 </body>
-
 </html>
